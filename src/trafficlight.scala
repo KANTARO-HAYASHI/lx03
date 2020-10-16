@@ -31,5 +31,5 @@ case class Light(color: Color) extends World() {
 }
 
 object TrafficLightApp extends App {
-  Light(Red).bigBang(300, 300, 2)
+  Light(Red).bigBang(300, 300, 1)
 }
